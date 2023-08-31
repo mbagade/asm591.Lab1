@@ -1,39 +1,86 @@
-h1 {
+.profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container h1 {
     color: green;
     background-color: bisque;
     text-align: center;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
-img {
+
+.profile img {
     width: 400px;
     height: 420px;
     padding: 2px;
     margin: 10px;
     border: 2px solid #555;
     float: left;
+    max-width: 100%;
+    height: auto;
 }
 
-h2 {
+.profile h2 {
     padding-top: 10px;
+    padding-left: 10px;
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
-h3 {
+.profile h3 {
     padding-top: -10px;
+    padding-left: 10px;
     margin: 0px;
     font-size: 22px;
 }
 
-p,a {
+#contact p,a {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0px;
+    padding-left: 10px;
 }
 
-#Contact {
+#contact-icons img {
     width: 50px;
-    height: 50px;    
+    height: 50px;
+    padding-left: 10px;
+}
+
+.work {
+    width: 100%;
+    padding: 10px;
+}
+
+.work-sample {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#work-image {
+    flex: 1;
+    margin-right: 20px;
+    float: left;
+}
+
+#work-content {
+    flex: 2;
+    font-size: 22px;
+}
+
+#work-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: right;
+    background-color: bisque;
 }
